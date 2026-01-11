@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy 1 Month, My Love 💕</title>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Floating hearts background */
+  .hearts-bg {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .heart-float {
+    position: absolute;
+    font-size: 1.8rem;
+    user-select: none;
+    pointer-events: none;
+    animation: floatUp linear infinite;
+    opacity: 0.7;
+  }
+
+  @keyframes floatUp {
+    0%   { transform: translateY(110vh) rotate(0deg); }
+    100% { transform: translateY(-15vh) rotate(1080deg); }
+  }
+
+  .main-card {
+    position: relative;
+    z-index: 10;
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 35px 25px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    margin-bottom: 12px;
+    text-shadow: 0 0 25px rgba(255, 105, 180, 0.8);
+    animation: softGlow 4s ease-in-out infinite alternate;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+  .big-heart {
+    font-size: 5.5rem;
+    margin: 15px 0;
+    animation: heartbeat 1.6s infinite ease-in-out;
+    display: inline-block;
+  }
+
+  @keyframes heartbeat {
+    0%,100% { transform: scale(1); }
+    50%     { transform: scale(1.18); }
+  }
+
+  @keyframes softGlow {
+    from { text-shadow: 0 0 15px #ff69b4; }
+    to   { text-shadow: 0 0 35px #ff1493, 0 0 60px #ff69b4; }
+  }
+
+  #typewriter {
+    font-size: 1.35rem;
+    line-height: 1.7;
+    min-height: 180px;
+    white-space: pre-wrap;
+    margin: 25px 0;
+    color: #fffef9;
+  }
+
+  #timer {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    font-weight: 500;
+    opacity: 0.95;
+  }
+
+  .btn-love {
+    margin: 12px 8px;
+    padding: 12px 26px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    background: #ff4d6d;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .btn-love:hover {
+    background: #ff1e4d;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255, 77, 109, 0.4);
+  }
+
+  .reveal-box {
+    display: none;
+    margin-top: 18px;
+    padding: 18px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 18px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .small-note {
+    margin-top: 25px;
+    font-size: 0.95rem;
+    opacity: 0.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="hearts-bg" id="heartsContainer"></div>
+
+<div class="main-card">
+  <h1>Happy 1 Month, <span style="color:#ffebee">Baby</span> 💕</h1>
+  <div class="subtitle">Our beautiful little forever started here</div>
+
+  <div class="big-heart">❤️</div>
+
+  <div id="typewriter"></div>
+
+  <div id="timer">Counting our moments...</div>
+
+  <button class="btn-love" onclick="showLoveReason()">One thing I love about you</button>
+  <div id="loveReveal" class="reveal-box"></div>
+
+  <button class="btn-love" onclick="document.getElementById('secret').style.display='block'">A little secret 💌</button>
+<div id="secret" class="reveal-box" style="display:none;">
+  Choosing you was the best decision of my life.<br>
+  And I’ll keep choosing you — every single day. ♾️<br><br>
+
+  I LOVE YOU DII SODA BUTTY!!<br>
+  JAALAKARRI , MINNALVALA, PSYIC , LOOSU, MUYALKUTTY, INVESTIGATOR, MY FAVV PADIPI<br><br>
+
+  <div style="
+    color: transparent;
+    background: linear-gradient(90deg, #ff9a9e, #ff69b4, #ba68c8, #9575cd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-top: 15px;
+    font-size: 1.18rem;
+    text-shadow: 0 0 10px rgba(255,105,180,0.5);
+    transition: all 0.4s;
+  " onmouseover="this.style.textShadow='0 0 25px #ff69b4, 0 0 40px #ba68c8'" onmouseout="this.style.textShadow='0 0 10px rgba(255,105,180,0.5)'">
+    Tere Hi Sahare Saare Taare<br>
+    Chamke Chamke Rehte Hain<br>
+    Tu Jo Kabhi Jaaye Kaun Sikhaye<br>
+    Dil Ki Kaise Sunte Hain<br><br>
+
+    Kabhi Jo Ho Manzil Na Aasaan<br>
+    Ranjish Koi Darmiyaan<br>
+    Khat Hain Jo Tujhko Likhe<br>
+    Shayad Mil Na Sake<br>
+    Khair Tu Ab Jo Mile Sun Le Yeh Sadaa<br><br>
+
+    Kaisi Dillagi Hai Tu<br>
+    Kaisi Bebasi Hai Tu<br>
+    Meri Zindagi Hai Tu<br>
+    Meri Zindagi Hai Tu<br><br>
+
+    Aankhon Ki Nami Hai Tu<br>
+    Sab Hai Par Kami Hai Tu<br>
+    Meri Zindagi Hai Tu<br>
+    Meri Zindagi Hai Tu 💖
+  </div>
+</div>
+
+  <div class="small-note">Tap the hearts floating around too... they might surprise you ♡</div>
+</div>
+
+<script>
+// ────────────  PERSONALIZE HERE ────────────
+const herName = "APPU KUTTY";
+const yourName = "TUTU ";
+const startDate = new Date("2025-12-12T00:00:00"); // ← real start date of relationship
+
+const typewriterText = `Oii ${"Parru"}...\n\nOne month ago you walked into my life\nand everything became so much more beautiful.\nYour laugh, your voice, your little messages,\nthe way you make ordinary days feel special...\n\nThis month showed me what real happiness feels like.\nThank you for being you.\nI love you more every day.\n\n— Forever yours, ${"TUTU"} 💗`;
+
+// Typewriter effect
+const typewriterEl = document.getElementById("typewriter");
+let charIndex = 0;
+function type() {
+  if (charIndex < typewriterText.length) {
+    typewriterEl.innerHTML += typewriterText.charAt(charIndex);
+    charIndex++;
+    setTimeout(type, 55);
+  }
+}
+type();
+
+// Timer
+function updateTimer() {
+  const now = new Date();
+  const diff = now - startDate;
+  const days = Math.floor(diff / 86400000);
+  const hours = Math.floor((diff % 86400000) / 3600000);
+  const minutes = Math.floor((diff % 3600000) / 60000);
+  document.getElementById("timer").textContent = 
+    `We've been together for ${days} days, ${hours} hours & ${minutes} minutes 💖`;
+}
+setInterval(updateTimer, 60000);
+updateTimer();
+
+// Floating hearts
+const hearts = ['❤️','💗','💖','💓','💞','💘','💝','🫶','✨'];
+function createFloatingHeart() {
+  const heart = document.createElement("div");
+  heart.className = "heart-float";
+  heart.textContent = hearts[Math.floor(Math.random() * hearts.length)];
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.animationDuration = (Math.random() * 12 + 10) + "s";
+  heart.style.fontSize = (Math.random() * 1.4 + 1.2) + "rem";
+  document.getElementById("heartsContainer").appendChild(heart);
+
+  setTimeout(() => heart.remove(), 15000);
+}
+setInterval(createFloatingHeart, 700);
+
+// Random love reasons
+const loveReasons = [
+  "Your smile instantly makes everything better",
+  "The way you care about the smallest things",
+  "How your eyes sparkle when you're excited about something",
+  "Your voice is literally my favorite sound",
+  "You make me laugh even when I'm tired",
+  "The way you understand me without words",
+  "Your hugs feel like home. Just watching you exist makes my heart feel full ♡",
+  "How you turn normal moments into memories",
+  "Your kindness makes me want to be better",
+    "Your smile, your cute antics, your eyes ahhh My heart full-a melt aaguthu dii 💖",
+  "Nee enna paakum bothu en heart-u full speed-il beat aagum appu!!!🫶",
+  "Un voice kettal pinne enakku oru full peace da, Appu Kutty",
+  "Your hugs feel like home, pinne enaku vere onnum venda da",
+  "Just watching you smile… en heart-u full-a butter fly aakum level ♡",
+  "Just... everything about you ♡"
+];
+
+function showLoveReason() {
+  const random = Math.floor(Math.random() * loveReasons.length);
+  document.getElementById("loveReveal").textContent = loveReasons[random];
+  document.getElementById("loveReveal").style.display = "block";
+}
+
+// Bonus: click floating hearts = more hearts burst
+document.addEventListener("click", (e) => {
+  if (Math.random() > 0.7) {
+    for(let i = 0; i < 12; i++) {
+      setTimeout(createFloatingHeart, i * 80);
+    }
+  }
+});
+</script>
+</body>
+</html>
